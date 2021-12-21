@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F9F28F712731A5550047F633 /* Anime_RepoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F28F702731A5550047F633 /* Anime_RepoApp.swift */; };
-		F9F28F732731A5550047F633 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F28F722731A5550047F633 /* ContentView.swift */; };
+		F9B44D9C27721008004FDFA9 /* AnimeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B44D9B27721008004FDFA9 /* AnimeCard.swift */; };
+		F9B44D9E277217F4004FDFA9 /* TopMangasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B44D9D277217F4004FDFA9 /* TopMangasView.swift */; };
+		F9B44DA027721C4E004FDFA9 /* TopCharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B44D9F27721C4E004FDFA9 /* TopCharactersView.swift */; };
+		F9B44DA227723DEA004FDFA9 /* AnimeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B44DA127723DEA004FDFA9 /* AnimeDetailsView.swift */; };
+		F9B44DA5277244B2004FDFA9 /* AnimeDetailsMock.json in Resources */ = {isa = PBXBuildFile; fileRef = F9B44DA4277244B2004FDFA9 /* AnimeDetailsMock.json */; };
+		F9B44DA827724BA1004FDFA9 /* BundleDataUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B44DA727724BA1004FDFA9 /* BundleDataUtils.swift */; };
+		F9F28F712731A5550047F633 /* AnimeRepoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F28F702731A5550047F633 /* AnimeRepoApp.swift */; };
+		F9F28F732731A5550047F633 /* TopAnimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F28F722731A5550047F633 /* TopAnimesView.swift */; };
 		F9F28F752731A5560047F633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F28F742731A5560047F633 /* Assets.xcassets */; };
 		F9F28F782731A5560047F633 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F28F772731A5560047F633 /* Preview Assets.xcassets */; };
 		F9F28F822731A5560047F633 /* Anime_RepoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F28F812731A5560047F633 /* Anime_RepoTests.swift */; };
 		F9F28F8C2731A5560047F633 /* Anime_RepoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F28F8B2731A5560047F633 /* Anime_RepoUITests.swift */; };
 		F9F28F8E2731A5560047F633 /* Anime_RepoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F28F8D2731A5560047F633 /* Anime_RepoUITestsLaunchTests.swift */; };
+		F9F28F9C2731A5870047F633 /* Jikan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F28F9B2731A5870047F633 /* Jikan.swift */; };
+		F9F28F9F2731ADF50047F633 /* TopsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F28F9E2731ADF50047F633 /* TopsViewModel.swift */; };
+		F9F28FA22731AFA40047F633 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = F9F28FA12731AFA40047F633 /* URLImage */; };
+		F9F28FAD2731D0810047F633 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F28FAC2731D0810047F633 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F9B44D9B27721008004FDFA9 /* AnimeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCard.swift; sourceTree = "<group>"; };
+		F9B44D9D277217F4004FDFA9 /* TopMangasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMangasView.swift; sourceTree = "<group>"; };
+		F9B44D9F27721C4E004FDFA9 /* TopCharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCharactersView.swift; sourceTree = "<group>"; };
+		F9B44DA127723DEA004FDFA9 /* AnimeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailsView.swift; sourceTree = "<group>"; };
+		F9B44DA4277244B2004FDFA9 /* AnimeDetailsMock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AnimeDetailsMock.json; sourceTree = "<group>"; };
+		F9B44DA727724BA1004FDFA9 /* BundleDataUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleDataUtils.swift; sourceTree = "<group>"; };
 		F9F28F6D2731A5550047F633 /* Anime Repo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anime Repo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9F28F702731A5550047F633 /* Anime_RepoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime_RepoApp.swift; sourceTree = "<group>"; };
-		F9F28F722731A5550047F633 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F9F28F702731A5550047F633 /* AnimeRepoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeRepoApp.swift; sourceTree = "<group>"; };
+		F9F28F722731A5550047F633 /* TopAnimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAnimesView.swift; sourceTree = "<group>"; };
 		F9F28F742731A5560047F633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9F28F772731A5560047F633 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F9F28F7D2731A5560047F633 /* Anime RepoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anime RepoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +60,9 @@
 		F9F28F872731A5560047F633 /* Anime RepoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anime RepoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F28F8B2731A5560047F633 /* Anime_RepoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime_RepoUITests.swift; sourceTree = "<group>"; };
 		F9F28F8D2731A5560047F633 /* Anime_RepoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime_RepoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9F28F9B2731A5870047F633 /* Jikan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jikan.swift; sourceTree = "<group>"; };
+		F9F28F9E2731ADF50047F633 /* TopsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopsViewModel.swift; sourceTree = "<group>"; };
+		F9F28FAC2731D0810047F633 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9F28FA22731AFA40047F633 /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +91,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F9B44D9A27720FBC004FDFA9 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				F9B44D9B27721008004FDFA9 /* AnimeCard.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		F9B44DA327724492004FDFA9 /* mocks */ = {
+			isa = PBXGroup;
+			children = (
+				F9B44DA4277244B2004FDFA9 /* AnimeDetailsMock.json */,
+			);
+			path = mocks;
+			sourceTree = "<group>";
+		};
+		F9B44DA627724B83004FDFA9 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F9B44DA727724BA1004FDFA9 /* BundleDataUtils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		F9F28F642731A5550047F633 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +138,12 @@
 		F9F28F6F2731A5550047F633 /* Anime Repo */ = {
 			isa = PBXGroup;
 			children = (
-				F9F28F702731A5550047F633 /* Anime_RepoApp.swift */,
-				F9F28F722731A5550047F633 /* ContentView.swift */,
+				F9B44DA627724B83004FDFA9 /* utils */,
+				F9B44DA327724492004FDFA9 /* mocks */,
+				F9F28FA62731B4E80047F633 /* view */,
+				F9F28F9D2731ADCD0047F633 /* view_model */,
+				F9F28F9A2731A56B0047F633 /* model */,
+				F9F28F702731A5550047F633 /* AnimeRepoApp.swift */,
 				F9F28F742731A5560047F633 /* Assets.xcassets */,
 				F9F28F762731A5560047F633 /* Preview Content */,
 			);
@@ -127,6 +175,35 @@
 			path = "Anime RepoUITests";
 			sourceTree = "<group>";
 		};
+		F9F28F9A2731A56B0047F633 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F9F28F9B2731A5870047F633 /* Jikan.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F9F28F9D2731ADCD0047F633 /* view_model */ = {
+			isa = PBXGroup;
+			children = (
+				F9F28F9E2731ADF50047F633 /* TopsViewModel.swift */,
+			);
+			path = view_model;
+			sourceTree = "<group>";
+		};
+		F9F28FA62731B4E80047F633 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F9B44D9A27720FBC004FDFA9 /* components */,
+				F9F28F722731A5550047F633 /* TopAnimesView.swift */,
+				F9F28FAC2731D0810047F633 /* HomeView.swift */,
+				F9B44D9D277217F4004FDFA9 /* TopMangasView.swift */,
+				F9B44D9F27721C4E004FDFA9 /* TopCharactersView.swift */,
+				F9B44DA127723DEA004FDFA9 /* AnimeDetailsView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +220,9 @@
 			dependencies = (
 			);
 			name = "Anime Repo";
+			packageProductDependencies = (
+				F9F28FA12731AFA40047F633 /* URLImage */,
+			);
 			productName = "Anime Repo";
 			productReference = F9F28F6D2731A5550047F633 /* Anime Repo.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +295,9 @@
 				Base,
 			);
 			mainGroup = F9F28F642731A5550047F633;
+			packageReferences = (
+				F9F28FA02731AFA40047F633 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = F9F28F6E2731A5550047F633 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9B44DA5277244B2004FDFA9 /* AnimeDetailsMock.json in Resources */,
 				F9F28F782731A5560047F633 /* Preview Assets.xcassets in Resources */,
 				F9F28F752731A5560047F633 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +341,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9F28F732731A5550047F633 /* ContentView.swift in Sources */,
-				F9F28F712731A5550047F633 /* Anime_RepoApp.swift in Sources */,
+				F9F28F732731A5550047F633 /* TopAnimesView.swift in Sources */,
+				F9F28F9C2731A5870047F633 /* Jikan.swift in Sources */,
+				F9B44DA027721C4E004FDFA9 /* TopCharactersView.swift in Sources */,
+				F9F28F9F2731ADF50047F633 /* TopsViewModel.swift in Sources */,
+				F9B44D9E277217F4004FDFA9 /* TopMangasView.swift in Sources */,
+				F9F28FAD2731D0810047F633 /* HomeView.swift in Sources */,
+				F9B44D9C27721008004FDFA9 /* AnimeCard.swift in Sources */,
+				F9B44DA827724BA1004FDFA9 /* BundleDataUtils.swift in Sources */,
+				F9B44DA227723DEA004FDFA9 /* AnimeDetailsView.swift in Sources */,
+				F9F28F712731A5550047F633 /* AnimeRepoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -346,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -360,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -401,7 +495,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -422,6 +516,7 @@
 				DEVELOPMENT_TEAM = 28KT9M7J7A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -431,9 +526,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.felnanuke.fruit-app.Anime-Repo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,6 +548,7 @@
 				DEVELOPMENT_TEAM = 28KT9M7J7A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -460,9 +558,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.felnanuke.fruit-app.Anime-Repo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -605,6 +705,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F9F28FA02731AFA40047F633 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F9F28FA12731AFA40047F633 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9F28FA02731AFA40047F633 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F9F28F652731A5550047F633 /* Project object */;
 }

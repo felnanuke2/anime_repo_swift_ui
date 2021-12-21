@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DD6B7CD2-D280-4FB1-9937-03312F213FF4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28F10B30-291D-432A-88F8-FAA839D8D235"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Anime Repo/model/jikan.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "getTopAnimes()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D1B54C4-9566-4F64-8254-5697A3A775A9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Anime Repo/model/Jikan.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "getTopMangas()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDBBA650-1839-4912-B13D-B2CB37A895CE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Anime Repo/view_model/AnimesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "getTopMangas()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE5A8930-3C46-4448-99D4-4A20AFD6BE00"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Anime Repo/utils/BundleDataUtils.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "readLocalFile(forName:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5132133-002D-4486-B61B-2D6612500E58"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Anime Repo/model/Jikan.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
+            landmarkName = "init(from:to:prop:string:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE0CC68D-0348-4AD4-819E-7DFACB0A61B8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Anime Repo/model/Jikan.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "init(requestHash:requestCached:requestCacheExpiry:malID:url:imageURL:trailerURL:title:titleEnglish:titleJapanese:type:source:episodes:status:airing:aired:duration:rating:score:scoredBy:rank:popularity:members:favorites:synopsis:background:premiered:broadcast:related:producers:licensors:studios:genres:themes:openingThemes:endingThemes:externalLinks:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CE0CC68D-0348-4AD4-819E-7DFACB0A61B8 - b721afd10baada"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Anime_Repo.Jikan.AnimeDetails.__allocating_init(requestHash: Swift.String, requestCached: Swift.Bool, requestCacheExpiry: Swift.Int, malID: Swift.Int, url: Swift.String, imageURL: Swift.String, trailerURL: Swift.String, title: Swift.String, titleEnglish: Swift.String, titleJapanese: Swift.String, type: Swift.String, source: Swift.String, episodes: Swift.Int, status: Swift.String, airing: Swift.Bool, aired: Anime_Repo.Jikan.Aired, duration: Swift.String, rating: Swift.String, score: Swift.Double, scoredBy: Swift.Int, rank: Swift.Int, popularity: Swift.Int, members: Swift.Int, favorites: Swift.Int, synopsis: Swift.String, background: Swift.String, premiered: Swift.String, broadcast: Swift.String, related: Anime_Repo.Jikan.Related, producers: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, licensors: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, studios: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, genres: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, themes: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, openingThemes: Swift.Array&lt;Swift.String&gt;, endingThemes: Swift.Array&lt;Swift.String&gt;, externalLinks: Swift.Array&lt;Anime_Repo.Jikan.ExternalLink&gt;) -&gt; Anime_Repo.Jikan.AnimeDetails"
+                  moduleName = "Anime Repo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luizfelipealveslima/Documents/swift_projects/Anime%20Repo/Anime%20Repo/model/Jikan.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  uuid = "CE0CC68D-0348-4AD4-819E-7DFACB0A61B8 - c237e172643ad5cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Anime_Repo.Jikan.AnimeDetails.init(requestHash: Swift.String, requestCached: Swift.Bool, requestCacheExpiry: Swift.Int, malID: Swift.Int, url: Swift.String, imageURL: Swift.String, trailerURL: Swift.String, title: Swift.String, titleEnglish: Swift.String, titleJapanese: Swift.String, type: Swift.String, source: Swift.String, episodes: Swift.Int, status: Swift.String, airing: Swift.Bool, aired: Anime_Repo.Jikan.Aired, duration: Swift.String, rating: Swift.String, score: Swift.Double, scoredBy: Swift.Int, rank: Swift.Int, popularity: Swift.Int, members: Swift.Int, favorites: Swift.Int, synopsis: Swift.String, background: Swift.String, premiered: Swift.String, broadcast: Swift.String, related: Anime_Repo.Jikan.Related, producers: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, licensors: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, studios: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, genres: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, themes: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, openingThemes: Swift.Array&lt;Swift.String&gt;, endingThemes: Swift.Array&lt;Swift.String&gt;, externalLinks: Swift.Array&lt;Anime_Repo.Jikan.ExternalLink&gt;) -&gt; Anime_Repo.Jikan.AnimeDetails"
+                  moduleName = "Anime Repo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luizfelipealveslima/Documents/swift_projects/Anime%20Repo/Anime%20Repo/model/Jikan.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "980">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75727957-DF91-45C7-912B-3C28F44D9C3C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Anime Repo/view/HomeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D041E295-E17E-4896-A045-705945377738"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Anime Repo/model/Jikan.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "init(requestHash:requestCached:requestCacheExpiry:malID:url:imageURL:trailerURL:title:titleEnglish:titleJapanese:type:source:episodes:status:airing:aired:duration:rating:score:scoredBy:rank:popularity:members:favorites:synopsis:background:premiered:broadcast:related:producers:licensors:studios:genres:themes:openingThemes:endingThemes:externalLinks:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F6A7255-D5CF-4EB6-91C3-28C8E90A7FA6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Anime Repo/model/Jikan.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "init(requestHash:requestCached:requestCacheExpiry:malID:url:imageURL:trailerURL:title:titleEnglish:titleJapanese:type:source:episodes:status:airing:aired:duration:rating:score:scoredBy:rank:popularity:members:favorites:synopsis:background:premiered:broadcast:related:producers:licensors:studios:genres:themes:openingThemes:endingThemes:externalLinks:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2F6A7255-D5CF-4EB6-91C3-28C8E90A7FA6 - b721afd10baada"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Anime_Repo.Jikan.AnimeDetails.__allocating_init(requestHash: Swift.String, requestCached: Swift.Bool, requestCacheExpiry: Swift.Int, malID: Swift.Int, url: Swift.String, imageURL: Swift.String, trailerURL: Swift.String, title: Swift.String, titleEnglish: Swift.String, titleJapanese: Swift.String, type: Swift.String, source: Swift.String, episodes: Swift.Int, status: Swift.String, airing: Swift.Bool, aired: Anime_Repo.Jikan.Aired, duration: Swift.String, rating: Swift.String, score: Swift.Double, scoredBy: Swift.Int, rank: Swift.Int, popularity: Swift.Int, members: Swift.Int, favorites: Swift.Int, synopsis: Swift.String, background: Swift.String, premiered: Swift.String, broadcast: Swift.String, related: Anime_Repo.Jikan.Related, producers: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, licensors: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, studios: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, genres: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, themes: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, openingThemes: Swift.Array&lt;Swift.String&gt;, endingThemes: Swift.Array&lt;Swift.String&gt;, externalLinks: Swift.Array&lt;Anime_Repo.Jikan.ExternalLink&gt;) -&gt; Anime_Repo.Jikan.AnimeDetails"
+                  moduleName = "Anime Repo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luizfelipealveslima/Documents/swift_projects/Anime%20Repo/Anime%20Repo/model/Jikan.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  uuid = "2F6A7255-D5CF-4EB6-91C3-28C8E90A7FA6 - c237e172643ad5cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Anime_Repo.Jikan.AnimeDetails.init(requestHash: Swift.String, requestCached: Swift.Bool, requestCacheExpiry: Swift.Int, malID: Swift.Int, url: Swift.String, imageURL: Swift.String, trailerURL: Swift.String, title: Swift.String, titleEnglish: Swift.String, titleJapanese: Swift.String, type: Swift.String, source: Swift.String, episodes: Swift.Int, status: Swift.String, airing: Swift.Bool, aired: Anime_Repo.Jikan.Aired, duration: Swift.String, rating: Swift.String, score: Swift.Double, scoredBy: Swift.Int, rank: Swift.Int, popularity: Swift.Int, members: Swift.Int, favorites: Swift.Int, synopsis: Swift.String, background: Swift.String, premiered: Swift.String, broadcast: Swift.String, related: Anime_Repo.Jikan.Related, producers: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, licensors: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, studios: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, genres: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, themes: Swift.Array&lt;Anime_Repo.Jikan.Genre&gt;, openingThemes: Swift.Array&lt;Swift.String&gt;, endingThemes: Swift.Array&lt;Swift.String&gt;, externalLinks: Swift.Array&lt;Anime_Repo.Jikan.ExternalLink&gt;) -&gt; Anime_Repo.Jikan.AnimeDetails"
+                  moduleName = "Anime Repo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luizfelipealveslima/Documents/swift_projects/Anime%20Repo/Anime%20Repo/model/Jikan.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "183"
+                  endingLineNumber = "183"
+                  offsetFromSymbolStart = "980">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BEC99D9E-D247-483F-9A5C-AAB03C14FAE3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Anime Repo/view/AnimeDetailsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "SynopsysCard"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
